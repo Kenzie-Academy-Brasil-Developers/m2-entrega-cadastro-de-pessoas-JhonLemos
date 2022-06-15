@@ -1,4 +1,4 @@
-# 🏁 Extra - Cadastro de pessoas
+# 🏁 Entrega - Cadastro de pessoas
 
 Para começar faça clone deste [repositório](https://classroom.github.com/a/IHzmQUQf)
 

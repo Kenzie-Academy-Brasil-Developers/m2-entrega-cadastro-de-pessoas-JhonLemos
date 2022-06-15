@@ -160,3 +160,33 @@ aside>ul>li:hover {
     background-color: #2e5a87;
     transition: 500ms;
 }
+.modal-conteiner{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    background-color: white;
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid grey;
+    position: relative;
+    box-shadow: 0 0 0 10px rgb(105, 103, 103);
+    font-size: 30px;
+}
+.buttonPop{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -21px;
+    right: -20px;
+    
+}
