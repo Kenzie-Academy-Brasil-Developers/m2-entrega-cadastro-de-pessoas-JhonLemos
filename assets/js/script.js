@@ -112,7 +112,7 @@ function fecharAuto(){
     },10000)
 }
 
-//UsersPara Teste de Friltro
+//UsersPara Teste de Filtro
 // let user1 = new Pessoa("João Victor","Lemos","04-08-1999","joao_victorlemos@hotmail.com","31912129231","1158965412","Aluno")
 // let user2 = new Pessoa("Zequinha","Francisco","06-09-1998","zequinha@kenzie.com.br","19183211621","19183211621","Facilitador")
 // let user3 = new Pessoa("João","Goulart","30-05-2000","joaogl@kenzie.com.br","59874211621","17985181621","Instrutor")
