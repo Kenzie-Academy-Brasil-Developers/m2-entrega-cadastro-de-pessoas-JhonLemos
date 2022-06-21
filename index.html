@@ -27,7 +27,7 @@
             <input type="text" name="sobrenome" placeholder="Sobrenome" class="field" />
 
             <label for="data-nascimento">Data de nascimento</label>
-            <input type="date" name="dataNascimento" class="field" />
+            <input type="date" name="dataNascimento" class="field" required />
 
             <label for="email">Email</label>
             <input type="email" name="email" placeholder="Email" class="field" />
@@ -45,7 +45,7 @@
           <option value="Instrutor">Instrutor</option>
         </select>
 
-            <button id="register-button">Cadastrar</button>
+            <button id="register-button" type = "submit">Cadastrar</button>
         </form>
     </main>
     <aside>
@@ -64,8 +64,10 @@
 
     <div class="modal-conteiner">
         <div class="modal">
-            <button class="buttonPop">X</button>
-            <span>Erro: usuário menor de idade</span>
+            <button class = "buttonPop" style="background-color:#ed4444;">X</button>
+            <span class = "popUp1"><span style = "color:#ff0000;">Erro</span>: usuário menor de idade</span>
+            <span class = "popUp2"><span style = "color:#ff0000;">Erro</span>: Email já cadastrado</span>
+
         </div>
 
     </div>

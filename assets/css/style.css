@@ -187,6 +187,11 @@ aside>ul>li:hover {
     height: 40px;
     position: absolute;
     top: -21px;
-    right: -20px;
-    
+    right: -20px;   
+}
+.popUp1{
+    display: none;
+}
+.popUp2{
+    display: none;
 }
